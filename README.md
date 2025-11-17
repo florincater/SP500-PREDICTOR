@@ -1,7 +1,14 @@
-# S&P 500 Prediction Model 🤖📈
+---
+title: S&P 500 Prediction Model
+emoji: 📈
+colorFrom: blue
+colorTo: purple
+sdk: gradio
+sdk_version: "4.0.0"
+app_file: app.py
+pinned: false
+---
 
-[![Hugging Face Spaces](https://img.shields.io/badge/🤗-Hugging%20Face%20Space-blue)](https://huggingface.co/spaces/florincater/sp500-predictor)
+# S&P 500 Prediction Model
 
-Live demo: https://huggingface.co/spaces/florincater/sp500-predictor
-
-AI-powered S&P 500 price predictions with Gradio interface and automated deployment.
+AI-powered predictions for S&P 500 prices.
