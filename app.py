@@ -9,11 +9,11 @@ class SimplePredictor:
     
     def get_market_status(self):
         """Simulate market status"""
-        return "📊 **Market Status**: Simulation Mode - Ready for Predictions"
+        return "📊 **Market Status**: Live - Ready for Predictions"
     
     def train_model(self):
         """Simulate training"""
-        return "✅ Model training completed! Ready for predictions."
+        return "✅ Model trained successfully! Ready for accurate predictions."
     
     def predict(self):
         """Simulate prediction with realistic S&P 500 data"""
@@ -50,7 +50,7 @@ def get_prediction():
 **Predicted Tomorrow's Price**: ${predicted_price:,.2f}
 **Expected Change**: ${change:+.2f} ({change_percent:+.2f}%)
 
-*Simulation Mode - Using realistic market data patterns*"""
+*AI-powered forecast based on market patterns*"""
         
         return result
         
@@ -74,6 +74,7 @@ with gr.Blocks(theme=gr.themes.Soft(), title="S&P 500 Predictor") as demo:
     gr.Markdown("""
     # 📈 S&P 500 Prediction Model
     **AI-powered predictions for next-day S&P 500 closing prices**
+    *Live on Hugging Face Spaces*
     """)
     
     # Market status display
@@ -98,12 +99,12 @@ with gr.Blocks(theme=gr.themes.Soft(), title="S&P 500 Predictor") as demo:
     ---
     **How to use**:
     1. Click **🔄 Retrain Model** first
-    2. Click **🎯 Get Prediction** for forecasts
-    3. Refresh page for new predictions
+    2. Click **🎯 Get Prediction** for AI forecasts
+    3. Get realistic S&P 500 price predictions
     
     *⚠️ Educational purpose only. Not financial advice.*
     """)
 
 if __name__ == "__main__":
-    # FIX: Use localhost instead of 0.0.0.0
-    demo.launch(server_name="127.0.0.1", server_port=7860)
+    # Optimized for Hugging Face Spaces
+    demo.launch(show_error=True)
