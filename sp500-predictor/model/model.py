@@ -13,7 +13,7 @@ class SP500Predictor:
     def train_model(self):
         \"\"\"Train the prediction model\"\"\"
         print("Training model...")
-        # Add your training logic here
+        # Add  training logic here
         return "Model training completed"
         
     def load_model(self):
